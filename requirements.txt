@@ -1,0 +1,16 @@
+# Main env (I-SEM, NOTEARS, experiments, tests). Versions = the shared `latml` env the stored results used.
+--extra-index-url https://download.pytorch.org/whl/cu126
+torch==2.6.0+cu126
+triton==3.2.0
+numpy==1.26.4
+scipy==1.14.1
+scikit-learn==1.6.1
+pandas==1.5.3
+networkx==3.4.2
+h5py==3.12.1
+anndata==0.10.8
+matplotlib==3.6.3
+pytest==8.3.4
+python-igraph==1.0.0
+pypdf==6.10.2
+tabulate
